@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img alt="gauntlet" src="https://media.giphy.com/media/huDwzY5141blqS88Ld/giphy.gif" width="100" height="100" frameBorder="0" ></img>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
