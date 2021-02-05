@@ -14,6 +14,8 @@ import {
   NavbarText
 } from 'reactstrap';
 
+import { Link } from 'react-router-dom';
+
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,20 +31,20 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto navbar-nav" navbar>
             <NavItem className="mx-auto">
-              <NavLink href="/about/">About</NavLink>
+              <Link to="/">Home</Link>
             </NavItem>
-            <NavItem className="mx-auto">
+            {/* <NavItem className="mx-auto">
               <NavLink href="https://github.com/reactstrap/reactstrap">Royalty</NavLink>
+            </NavItem> */}
+            <NavItem className="mx-auto">
+              <Link to="/bellatores">Bellatores</Link>
             </NavItem>
             <NavItem className="mx-auto">
-              <NavLink href="https://github.com/reactstrap/reactstrap">Bellatores</NavLink>
+              <Link to="/oratores">Oratores</Link>
             </NavItem>
-            <NavItem className="mx-auto">
-              <NavLink href="https://github.com/reactstrap/reactstrap">Oratores</NavLink>
-            </NavItem>
-            <NavItem className="mx-auto">
+            {/* <NavItem className="mx-auto">
               <NavLink href="https://github.com/reactstrap/reactstrap">Laboratores</NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>

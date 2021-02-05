@@ -1,0 +1,66 @@
+
+.container{
+  margin-top: 7vh;
+
+  .oratore-background{
+    background: url("../images/haut-risque-PY_SMZwDi9M-unsplash.jpg");
+    
+    border: none;
+    
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2vh;
+    text-align: start;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 5vw;
+    padding-top: 18vh;
+    
+    b{
+      font-size: 8vh;
+      line-height: 10vh;
+    }
+  }
+  div{
+    // margin-left: 2vw;
+
+    h2{
+      margin-bottom: 2vh;
+      color:#daa520;
+    }
+    div{
+      
+      .oratore-card{
+  
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2vh;
+        
+        .oratore-avatar{
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          margin-right: 5px;
+          
+        }
+      
+        p{
+          color:#daa520;
+        }
+  
+        div{
+          
+        }
+      
+      }
+      
+    }
+  }
+  
+}

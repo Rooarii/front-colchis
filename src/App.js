@@ -5,6 +5,9 @@ import './styles/app.scss';
 
 import Nav from './components/Nav'
 import Home from './components/Home'
+import Oratores from './components/Oratores'
+import Bellatores from './components/Bellatores'
+
 function App() {
 
 
@@ -16,11 +19,12 @@ function App() {
             <Nav />
           </header>
         </div>
-        <Home></Home>
+        
         <Switch>
           {/* <Route exact path='/category' component={Category} /> */}
-          <Route exact path='/bellatores'  />
-          <Route exact path='/oratores' /> 
+          <Route exact path='/' component={Home}  />
+          <Route exact path='/bellatores' component={Bellatores} />
+          <Route exact path='/oratores' component={Oratores}/> 
         </Switch>
       </Router>
       
